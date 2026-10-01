@@ -1,0 +1,6 @@
+# Archivos generados por scripts/build-filters.mjs: no mostrar diffs enormes.
+extension/rules/easylist.json linguist-generated=true -diff
+extension/rules/easyprivacy.json linguist-generated=true -diff
+extension/rules/annoyances.json linguist-generated=true -diff
+extension/filters/*.cosmetic.json linguist-generated=true -diff
+extension/filters/*.generic.css linguist-generated=true -diff
