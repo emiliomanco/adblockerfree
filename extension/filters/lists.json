@@ -1,0 +1,32 @@
+{
+  "easylist": {
+    "version": "202610010149",
+    "networkRules": 49742,
+    "networkFailed": 14,
+    "genericSelectors": 13635,
+    "specificDomains": 7781,
+    "proceduralDomains": 253,
+    "skippedCosmetic": 50
+  },
+  "easyprivacy": {
+    "version": "202610010149",
+    "networkRules": 56176,
+    "networkFailed": 35,
+    "genericSelectors": 2,
+    "specificDomains": 343,
+    "proceduralDomains": 0,
+    "skippedCosmetic": 33
+  },
+  "annoyances": {
+    "version": "202610010149",
+    "networkRules": 4184,
+    "networkFailed": 0,
+    "genericSelectors": 27291,
+    "specificDomains": 26071,
+    "proceduralDomains": 365,
+    "skippedCosmetic": 3
+  },
+  "youtube": {
+    "networkRules": 8
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+scripts/.cache/
+dist/
+*.zip
+*.crx
+*.pem
+test-results/
+_metadata/
+extension/_metadata/

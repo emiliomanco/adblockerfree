@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdBlocker Free</title>
+  <link rel="stylesheet" href="../ui/theme.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="../icons/icon32.png" width="24" height="24" alt="">
+    <strong data-i18n="extName"></strong>
+    <button id="openOptions" class="icon-btn" data-i18n-title="options" aria-label="Opciones">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6a.5.5 0 0 0 .1-.6l-2-3.5a.5.5 0 0 0-.6-.2l-2.5 1a7.4 7.4 0 0 0-1.7-1l-.4-2.6a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 0-.5.4l-.4 2.7a7.6 7.6 0 0 0-1.7 1l-2.5-1a.5.5 0 0 0-.6.2l-2 3.5a.5.5 0 0 0 .1.6L4.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6a.5.5 0 0 0-.1.6l2 3.5c.1.2.4.3.6.2l2.5-1c.5.4 1.1.7 1.7 1l.4 2.6c0 .3.2.5.5.5h4c.3 0 .5-.2.5-.4l.4-2.7c.6-.3 1.2-.6 1.7-1l2.5 1c.2.1.5 0 .6-.2l2-3.5a.5.5 0 0 0-.1-.6zM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z"/></svg>
+    </button>
+  </header>
+
+  <main>
+    <section id="paused" class="paused" hidden>
+      <p data-i18n="globallyPaused"></p>
+      <button id="resume" class="btn primary" data-i18n="resumeAll"></button>
+    </section>
+
+    <section id="active">
+      <div class="counter">
+        <div id="count" class="count">0</div>
+        <div class="count-label" data-i18n="blockedOnPage"></div>
+      </div>
+
+      <div id="siteBox" class="site">
+        <div class="site-info">
+          <div id="host" class="host"></div>
+          <div id="siteStatus" class="site-status"></div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="siteToggle">
+          <span></span>
+        </label>
+      </div>
+      <p id="unsupported" class="unsupported" data-i18n="unsupportedPage" hidden></p>
+
+      <div class="actions">
+        <button id="pick" class="btn primary" data-i18n="pickElement"></button>
+        <button id="pauseAll" class="btn" data-i18n="pauseAll"></button>
+      </div>
+
+      <div class="yt">
+        <span data-i18n="ytSkipped"></span>
+        <strong id="ytCount">0</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer data-i18n="tagline"></footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

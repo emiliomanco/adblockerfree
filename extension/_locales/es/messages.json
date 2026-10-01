@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "AdBlocker Free"
+  },
+  "extDescription": {
+    "message": "Bloqueador de anuncios 100% gratis y sin cuentas. Bloquea anuncios, rastreadores y los anuncios de YouTube."
+  },
+  "blockedOnPage": {
+    "message": "bloqueados en esta página"
+  },
+  "siteEnabled": {
+    "message": "Activado en este sitio"
+  },
+  "sitePaused": {
+    "message": "Pausado en este sitio"
+  },
+  "pickElement": {
+    "message": "Bloquear un anuncio"
+  },
+  "pauseAll": {
+    "message": "Pausar en todas las webs"
+  },
+  "resumeAll": {
+    "message": "Reanudar el bloqueo"
+  },
+  "globallyPaused": {
+    "message": "AdBlocker Free está en pausa en todas las webs."
+  },
+  "unsupportedPage": {
+    "message": "AdBlocker Free no actúa en las páginas internas del navegador."
+  },
+  "ytSkipped": {
+    "message": "Anuncios de YouTube saltados"
+  },
+  "options": {
+    "message": "Opciones"
+  },
+  "tagline": {
+    "message": "100% gratis · sin cuentas · sin rastreo"
+  },
+  "pickerTitle": {
+    "message": "Bloquear un anuncio"
+  },
+  "pickerIntro": {
+    "message": "Pasa el ratón por encima del anuncio y haz clic en él. Pulsa Esc para cancelar."
+  },
+  "pickerConfirm": {
+    "message": "¿Es lo que quieres ocultar? Mueve la barra para ampliar la selección."
+  },
+  "pickerSelector": {
+    "message": "Filtro (selector CSS)"
+  },
+  "pickerAdjust": {
+    "message": "Ampliar la selección"
+  },
+  "pickerMatches": {
+    "message": "Ocultará $COUNT$ elemento(s) en esta página.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "pickerNoMatch": {
+    "message": "El filtro no coincide con ningún elemento."
+  },
+  "pickerPreview": {
+    "message": "Vista previa"
+  },
+  "pickerBlock": {
+    "message": "Bloquear"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "optionsTitle": {
+    "message": "Opciones de AdBlocker Free"
+  },
+  "navGeneral": {
+    "message": "General"
+  },
+  "navAllowlist": {
+    "message": "Sitios permitidos"
+  },
+  "navCustom": {
+    "message": "Mis filtros"
+  },
+  "navAbout": {
+    "message": "Acerca de"
+  },
+  "enabledLabel": {
+    "message": "Bloqueo activado"
+  },
+  "enabledHint": {
+    "message": "Desactívalo para pausar AdBlocker Free en todas las webs."
+  },
+  "listsTitle": {
+    "message": "Listas de filtros"
+  },
+  "listEasylist": {
+    "message": "Anuncios (EasyList)"
+  },
+  "listEasylistDesc": {
+    "message": "Bloquea la gran mayoría de anuncios de la web. Recomendado."
+  },
+  "listEasyprivacy": {
+    "message": "Rastreadores (EasyPrivacy)"
+  },
+  "listEasyprivacyDesc": {
+    "message": "Bloquea rastreadores y scripts de analítica que siguen lo que haces en internet."
+  },
+  "listYoutube": {
+    "message": "Anuncios de YouTube"
+  },
+  "listYoutubeDesc": {
+    "message": "Elimina los anuncios de vídeo, los banners y los vídeos patrocinados de YouTube."
+  },
+  "listAnnoyances": {
+    "message": "Molestias (Fanboy's Annoyance)"
+  },
+  "listAnnoyancesDesc": {
+    "message": "Oculta avisos de cookies, ventanas de suscripción, widgets sociales y otras distracciones. Puede afectar a alguna web."
+  },
+  "rulesCount": {
+    "message": "$COUNT$ reglas",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50000"
+      }
+    }
+  },
+  "listsFailed": {
+    "message": "Chrome no ha permitido activar: $LISTS$. Puede que otro bloqueador de anuncios esté ocupando el límite de reglas del navegador.",
+    "placeholders": {
+      "lists": {
+        "content": "$1",
+        "example": "EasyPrivacy"
+      }
+    }
+  },
+  "allowlistHint": {
+    "message": "AdBlocker Free no bloqueará nada en estos sitios ni en sus subdominios."
+  },
+  "allowlistPlaceholder": {
+    "message": "ejemplo.com"
+  },
+  "add": {
+    "message": "Añadir"
+  },
+  "remove": {
+    "message": "Quitar"
+  },
+  "allowlistEmpty": {
+    "message": "No hay sitios permitidos."
+  },
+  "invalidHost": {
+    "message": "Ese dominio no es válido."
+  },
+  "customHint": {
+    "message": "Un filtro por línea, con la sintaxis de Adblock Plus / EasyList. Lo que bloquees con «Bloquear un anuncio» aparece aquí."
+  },
+  "customExamples": {
+    "message": "Ejemplos"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "saved": {
+    "message": "Guardado y aplicado."
+  },
+  "customInvalid": {
+    "message": "Estos filtros no se han podido aplicar:"
+  },
+  "aboutText": {
+    "message": "AdBlocker Free es gratis para siempre: sin cuentas, sin suscripciones, sin «anuncios aceptables» y sin enviar ningún dato a ningún servidor. Todo se procesa dentro de tu navegador."
+  },
+  "aboutLists": {
+    "message": "Versión de las listas incluidas"
+  },
+  "aboutUpdate": {
+    "message": "Para actualizar las listas, ejecuta «npm run build:filters» en la carpeta del proyecto y recarga la extensión."
+  },
+  "aboutCredits": {
+    "message": "Listas de filtros de EasyList (easylist.to), con licencia GPLv3 / CC BY-SA 3.0. Conversión con abp2dnr de eyeo."
+  },
+  "statsTitle": {
+    "message": "Estadísticas"
+  }
+}

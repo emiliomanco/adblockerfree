@@ -1,0 +1,10 @@
+[
+{"id":1,"priority":1000,"condition":{"urlFilter":"||youtube.com/api/stats/ads","resourceTypes":["xmlhttprequest","ping","image","other"]},"action":{"type":"block"}},
+{"id":2,"priority":1000,"condition":{"urlFilter":"||youtube.com/pagead/","resourceTypes":["xmlhttprequest","ping","image","script","sub_frame","other"]},"action":{"type":"block"}},
+{"id":3,"priority":1000,"condition":{"urlFilter":"||youtube.com/pcs/activeview","resourceTypes":["xmlhttprequest","ping","image","other"]},"action":{"type":"block"}},
+{"id":4,"priority":1000,"condition":{"urlFilter":"||youtube.com/get_midroll_","resourceTypes":["xmlhttprequest","other"]},"action":{"type":"block"}},
+{"id":5,"priority":1000,"condition":{"urlFilter":"||youtube.com/youtubei/v1/player/ad_break","resourceTypes":["xmlhttprequest","other"]},"action":{"type":"block"}},
+{"id":6,"priority":1000,"condition":{"urlFilter":"||googleads.g.doubleclick.net^","resourceTypes":["xmlhttprequest","ping","image","script","sub_frame","other"]},"action":{"type":"block"}},
+{"id":7,"priority":1000,"condition":{"urlFilter":"||www.google.com/pagead/","initiatorDomains":["youtube.com","youtube-nocookie.com"],"resourceTypes":["xmlhttprequest","ping","image","script","sub_frame","other"]},"action":{"type":"block"}},
+{"id":8,"priority":1000,"condition":{"urlFilter":"||googleadservices.com^","initiatorDomains":["youtube.com","youtube-nocookie.com"]},"action":{"type":"block"}}
+]

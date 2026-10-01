@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "AdBlocker Free"
+  },
+  "extDescription": {
+    "message": "100% free ad blocker, no account needed. Blocks ads, trackers and YouTube ads."
+  },
+  "blockedOnPage": {
+    "message": "blocked on this page"
+  },
+  "siteEnabled": {
+    "message": "Enabled on this site"
+  },
+  "sitePaused": {
+    "message": "Paused on this site"
+  },
+  "pickElement": {
+    "message": "Block an ad"
+  },
+  "pauseAll": {
+    "message": "Pause on all sites"
+  },
+  "resumeAll": {
+    "message": "Resume blocking"
+  },
+  "globallyPaused": {
+    "message": "AdBlocker Free is paused on all sites."
+  },
+  "unsupportedPage": {
+    "message": "AdBlocker Free doesn't run on the browser's internal pages."
+  },
+  "ytSkipped": {
+    "message": "YouTube ads skipped"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "tagline": {
+    "message": "100% free · no account · no tracking"
+  },
+  "pickerTitle": {
+    "message": "Block an ad"
+  },
+  "pickerIntro": {
+    "message": "Hover over the ad and click it. Press Esc to cancel."
+  },
+  "pickerConfirm": {
+    "message": "Is this what you want to hide? Move the slider to widen the selection."
+  },
+  "pickerSelector": {
+    "message": "Filter (CSS selector)"
+  },
+  "pickerAdjust": {
+    "message": "Widen the selection"
+  },
+  "pickerMatches": {
+    "message": "Will hide $COUNT$ element(s) on this page.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "pickerNoMatch": {
+    "message": "The filter doesn't match any element."
+  },
+  "pickerPreview": {
+    "message": "Preview"
+  },
+  "pickerBlock": {
+    "message": "Block"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "optionsTitle": {
+    "message": "AdBlocker Free options"
+  },
+  "navGeneral": {
+    "message": "General"
+  },
+  "navAllowlist": {
+    "message": "Allowed sites"
+  },
+  "navCustom": {
+    "message": "My filters"
+  },
+  "navAbout": {
+    "message": "About"
+  },
+  "enabledLabel": {
+    "message": "Blocking enabled"
+  },
+  "enabledHint": {
+    "message": "Turn it off to pause AdBlocker Free on every site."
+  },
+  "listsTitle": {
+    "message": "Filter lists"
+  },
+  "listEasylist": {
+    "message": "Ads (EasyList)"
+  },
+  "listEasylistDesc": {
+    "message": "Blocks the vast majority of ads on the web. Recommended."
+  },
+  "listEasyprivacy": {
+    "message": "Trackers (EasyPrivacy)"
+  },
+  "listEasyprivacyDesc": {
+    "message": "Blocks trackers and analytics scripts that follow what you do online."
+  },
+  "listYoutube": {
+    "message": "YouTube ads"
+  },
+  "listYoutubeDesc": {
+    "message": "Removes YouTube video ads, banners and sponsored videos."
+  },
+  "listAnnoyances": {
+    "message": "Annoyances (Fanboy's Annoyance)"
+  },
+  "listAnnoyancesDesc": {
+    "message": "Hides cookie notices, newsletter pop-ups, social widgets and other distractions. May affect some sites."
+  },
+  "rulesCount": {
+    "message": "$COUNT$ rules",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50000"
+      }
+    }
+  },
+  "listsFailed": {
+    "message": "Chrome refused to enable: $LISTS$. Another ad blocker may be using up the browser's rule limit.",
+    "placeholders": {
+      "lists": {
+        "content": "$1",
+        "example": "EasyPrivacy"
+      }
+    }
+  },
+  "allowlistHint": {
+    "message": "AdBlocker Free won't block anything on these sites or their subdomains."
+  },
+  "allowlistPlaceholder": {
+    "message": "example.com"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "allowlistEmpty": {
+    "message": "No allowed sites yet."
+  },
+  "invalidHost": {
+    "message": "That domain isn't valid."
+  },
+  "customHint": {
+    "message": "One filter per line, using Adblock Plus / EasyList syntax. Anything you block with “Block an ad” shows up here."
+  },
+  "customExamples": {
+    "message": "Examples"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saved": {
+    "message": "Saved and applied."
+  },
+  "customInvalid": {
+    "message": "These filters couldn't be applied:"
+  },
+  "aboutText": {
+    "message": "AdBlocker Free is free forever: no accounts, no subscriptions, no “acceptable ads” and no data sent to any server. Everything happens inside your browser."
+  },
+  "aboutLists": {
+    "message": "Bundled list versions"
+  },
+  "aboutUpdate": {
+    "message": "To update the lists, run “npm run build:filters” in the project folder and reload the extension."
+  },
+  "aboutCredits": {
+    "message": "Filter lists by EasyList (easylist.to), licensed GPLv3 / CC BY-SA 3.0. Converted with eyeo's abp2dnr."
+  },
+  "statsTitle": {
+    "message": "Statistics"
+  }
+}

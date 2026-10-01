@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdBlocker Free</title>
+  <link rel="stylesheet" href="../ui/theme.css">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="layout">
+    <nav>
+      <div class="brand">
+        <img src="../icons/icon48.png" width="32" height="32" alt="">
+        <span data-i18n="extName"></span>
+      </div>
+      <a href="#general" data-i18n="navGeneral"></a>
+      <a href="#allowlist" data-i18n="navAllowlist"></a>
+      <a href="#custom" data-i18n="navCustom"></a>
+      <a href="#about" data-i18n="navAbout"></a>
+    </nav>
+
+    <main>
+      <section id="general" class="panel">
+        <h1 data-i18n="navGeneral"></h1>
+
+        <div class="card row">
+          <div class="grow">
+            <div class="title" data-i18n="enabledLabel"></div>
+            <div class="hint" data-i18n="enabledHint"></div>
+          </div>
+          <label class="switch"><input type="checkbox" id="enabled"><span></span></label>
+        </div>
+
+        <p id="failed" class="warn" hidden></p>
+
+        <h2 data-i18n="listsTitle"></h2>
+        <div id="lists" class="card list"></div>
+
+        <h2 data-i18n="statsTitle"></h2>
+        <div class="card row">
+          <div class="grow title" data-i18n="ytSkipped"></div>
+          <strong id="ytCount" class="stat">0</strong>
+        </div>
+      </section>
+
+      <section id="allowlist" class="panel">
+        <h1 data-i18n="navAllowlist"></h1>
+        <p class="hint" data-i18n="allowlistHint"></p>
+        <form id="allowForm" class="add-row">
+          <input id="allowInput" type="text" autocomplete="off" spellcheck="false" data-i18n-placeholder="allowlistPlaceholder">
+          <button class="btn primary" type="submit" data-i18n="add"></button>
+        </form>
+        <p id="allowError" class="error" hidden></p>
+        <ul id="allowItems" class="card list items"></ul>
+        <p id="allowEmpty" class="hint" data-i18n="allowlistEmpty"></p>
+      </section>
+
+      <section id="custom" class="panel">
+        <h1 data-i18n="navCustom"></h1>
+        <p class="hint" data-i18n="customHint"></p>
+        <details class="examples">
+          <summary data-i18n="customExamples"></summary>
+<pre>! Ocultar un elemento en un sitio
+ejemplo.com##.banner-publicidad
+
+! Ocultar en todos los sitios
+##.anuncio-lateral
+
+! Ocultar por texto
+ejemplo.com#?#div.post:has-text(Patrocinado)
+
+! Bloquear un dominio de anuncios
+||anuncios.ejemplo.net^
+
+! Excepción (no bloquear)
+@@||ejemplo.com/reproductor.js</pre>
+        </details>
+        <textarea id="customFilters" spellcheck="false" rows="16"></textarea>
+        <div class="add-row">
+          <button id="saveCustom" class="btn primary" data-i18n="save"></button>
+          <span id="customSaved" class="ok" hidden data-i18n="saved"></span>
+        </div>
+        <div id="customInvalid" class="warn" hidden>
+          <div data-i18n="customInvalid"></div>
+          <ul></ul>
+        </div>
+      </section>
+
+      <section id="about" class="panel">
+        <h1 data-i18n="navAbout"></h1>
+        <p data-i18n="aboutText"></p>
+        <h2 data-i18n="aboutLists"></h2>
+        <ul id="versions" class="card list items"></ul>
+        <p class="hint" data-i18n="aboutUpdate"></p>
+        <p class="hint" data-i18n="aboutCredits"></p>
+        <p class="hint">v<span id="version"></span></p>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>
